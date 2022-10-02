@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+    <head>
+        <meta charset="UTF-8">
+        <title>登入</title>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <!-- JS, Popper.js, and jQuery -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <style>body{background-color: #dce2e2;</style>
+        <style>
+            #mydiv
+            {
+                align="center";
+                valign="center";
+            }
+        </style>
+    </head>
+    <body>
+        <form method="POST" action="login_val.jsp" class="form-signin container py-5">
+            <div id="mydiv"></div>
+            <img style="display:block; margin:auto;" src="besta.png" width="180" height="180">
+            <h2 style="text-align:center"><strong>使用者登入</strong></h2>
+            <div class="container py-3">
+                <div class="row justify-content-around">
+                    <div class="col-4">
+                        <label>帳號</label>
+                        <input type="text" name="account" class="form-control" placeholder="請輸入帳號" required />
+                    </div>
+                </div>
+            </div>
+            <div class="container py-3">
+                <div class="row justify-content-around">
+                    <div class="col-4">
+                        <label>密碼</label>
+                        <input type="password" name="password" class="form-control" placeholder="請輸入密碼" required />
+                    </div>
+                </div>
+            </div>
+            <div class="container py-3">
+                <div class="row justify-content-center">
+                    <div>
+                        <input type="submit" name="submit" class="btn btn-dark" value="登入" onClick="return validateLogin()" />
+                    </div>
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
