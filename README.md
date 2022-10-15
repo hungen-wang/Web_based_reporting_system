@@ -1,12 +1,12 @@
 # Web_based_reporting_system
  Web Based system written during off-campus internship
 
-系統環境設定
-Local web server PC
-  CPU：Intel(R) Core i7-8750H
-  RAM：16G
-  OS：Windows 10 Pro version 2004
-  Application：Tomcat 9.0
+##系統環境設定
+* Local web server PC
+** CPU：Intel(R) Core i7-8750H
+** RAM：16G
+** OS：Windows 10 Pro version 2004
+** Application：Tomcat 9.0
 		  
 Remote Database Server
   Amazon web service ec2 virtual instance
