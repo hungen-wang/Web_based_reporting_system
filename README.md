@@ -1,6 +1,8 @@
 # Web_based_reporting_system
  Web Based system written during off-campus internship
 
+* [Final_report.ppt](https://docs.google.com/presentation/d/16T-ORaxJDcSdZI8QmiIIuLpQ1eWh9iFe/edit?usp=share_link&ouid=103769037852455732407&rtpof=true&sd=true)
+
 ## 系統環境設定
 
 ### Local web server PC
